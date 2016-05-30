@@ -1,0 +1,29 @@
+﻿빌드 시작: 2016-05-30 오후 3:07:25
+     1>2 노드의 "D:\MyProgramFiles\VS projects\Sabo-Restaurant\Sabo-Restaurant\Sabo-Restaurant.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\Sabo-Restaurant.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         d:\MyProgramFiles\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "Sabo-Server.cpp"
+         Sabo-Server.cpp
+     1>d:\myprogramfiles\vs projects\sabo-restaurant\sabo-restaurant\sabo-server.cpp(107): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 d:\myprogramfiles\microsoft visual studio 10.0\vc\include\string.h(248) : 'strnicmp' 선언을 참조하십시오.
+     1>d:\myprogramfiles\vs projects\sabo-restaurant\sabo-restaurant\sabo-server.cpp(119): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 d:\myprogramfiles\microsoft visual studio 10.0\vc\include\string.h(248) : 'strnicmp' 선언을 참조하십시오.
+     1>d:\myprogramfiles\vs projects\sabo-restaurant\sabo-restaurant\sabo-server.cpp(130): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 d:\myprogramfiles\microsoft visual studio 10.0\vc\include\string.h(248) : 'strnicmp' 선언을 참조하십시오.
+     1>d:\myprogramfiles\vs projects\sabo-restaurant\sabo-restaurant\sabo-server.cpp(145): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 d:\myprogramfiles\microsoft visual studio 10.0\vc\include\string.h(248) : 'strnicmp' 선언을 참조하십시오.
+       Link:
+         d:\MyProgramFiles\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\MyProgramFiles\VS projects\Sabo-Restaurant\Debug\Sabo-Restaurant.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Sabo-Restaurant.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\MyProgramFiles\VS projects\Sabo-Restaurant\Debug\Sabo-Restaurant.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\MyProgramFiles\VS projects\Sabo-Restaurant\Debug\Sabo-Restaurant.lib" /MACHINE:X86 "Debug\Sabo-Server.obj"
+         LINK : D:\MyProgramFiles\VS projects\Sabo-Restaurant\Debug\Sabo-Restaurant.exe을(를) 찾을 수 없거나 마지막 증분 링크에 의해 빌드되지 않았습니다. 전체 링크를 수행하고 있습니다.
+         Sabo-Restaurant.vcxproj -> D:\MyProgramFiles\VS projects\Sabo-Restaurant\Debug\Sabo-Restaurant.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\MyProgramFiles\VS projects\Sabo-Restaurant\Debug\Sabo-Restaurant.exe;#1" /manifest "Debug\Sabo-Restaurant.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         "Debug\Sabo-Restaurant.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug\Sabo-Restaurant.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"D:\MyProgramFiles\VS projects\Sabo-Restaurant\Sabo-Restaurant\Sabo-Restaurant.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:01.14
